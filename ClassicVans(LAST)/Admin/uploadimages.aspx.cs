@@ -11,7 +11,20 @@ namespace ClassicVans_LAST_.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string productId = Request.QueryString["id"];
+            string filename = productId + ".jpg";
 
+            CrntImage.ImageUrl = "~/image/" + filename;
+        }
+
+        protected void BtnUpload_Click(object sender, EventArgs e)
+        {
+            string productId = Request.QueryString["id"];
+
+            string filename = productId + ".jpg";
+            string saveLocation = Server.MapPath("~/image/" + filename);
+
+            FileUpload.SaveAs(saveLocation);
         }
     }
 }

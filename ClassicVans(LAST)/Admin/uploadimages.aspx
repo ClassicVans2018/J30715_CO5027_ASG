@@ -2,4 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>Upload Item Image</h1>
+    
+        <p><asp:FileUpload ID="FileUpload" runat="server" Height="42px" Width="293px" /></p>
+    <p>
+        <asp:Button ID="BtnUpload" runat="server" Height="39px" OnClick="BtnUpload_Click" Text="Upload" Width="142px" />
+    </p>
+    <p>
+        <asp:Image ID="CrntImage" runat="server" Width="227px" />
+    </p>
+    
+
 </asp:Content>

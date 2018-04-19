@@ -9,6 +9,16 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                  <li><a href="~/default.aspx" class="current" runat="server">Home</a></li>
+                        <li><a href="~/about.aspx" class="current" runat="server">About</a></li>
+                        <li><a href="~/contact.aspx" class="current" runat="server">Contact</a></li>
+                        <li><a href="~/login.aspx" class="current" runat="server">Log-In</a></li>
+            </ul>
+        </nav>
+    </header>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
