@@ -69,6 +69,7 @@
     <Content Include="ClassicVans.Master" />
     <Content Include="Admin\Admin.Master" />
     <None Include="packages.config" />
+    <Content Include="JS\map.js" />
     <Content Include="StyleSheet1.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
