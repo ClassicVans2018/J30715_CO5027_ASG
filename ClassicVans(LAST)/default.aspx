@@ -8,7 +8,7 @@
         </HeaderTemplate>
         <ItemTemplate>
             <div id="Product">
-
+                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg height="300px"/</a></br>
                 <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><%#Eval("PRODUCTName") %></a>
                 <p><%#Eval("PRODUCTDesc") %></p>
             </div>
