@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="ClassicVans_LAST_.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="StyleSheet1.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="container" class="auto-style5">

@@ -107,6 +107,7 @@
     <Content Include="Admin\Web.config" />
     <None Include="packages.config" />
     <Content Include="JS\map.js" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet1.scss" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
