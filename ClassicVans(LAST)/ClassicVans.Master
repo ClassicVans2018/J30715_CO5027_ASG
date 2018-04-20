@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>Classic Vans - WELCOME</title>
+    <title>Classic VansE</title>
     <link href="StyleSheet1.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -17,7 +17,7 @@
         </div>
             <nav>
             <ul>
-                  <li><a href="~/default.aspx"  runat="server">Home</a></li>
+                  <li class="current"><a href="~/default.aspx"  runat="server">Home</a></li>
                   <li><a href="~/about.aspx"  runat="server">About</a></li>
                   <li><a href="~/contact.aspx"  runat="server">Contact</a></li>
                   <li><a href="~/login.aspx"  runat="server">Log-In</a></li>
@@ -27,15 +27,20 @@
            </header>
     <section id="showcase">
         <div class="container">
-            <h1>Authentic Original Classic Vans Shoes & Others</h1>
+            <h1>Authentic, Original & Classic Vans</h1>
             <p>This shoes has all of the original features of a Vans show, but has a true reliability that can stand up to a range of wear and tear</p>
         </div>
     </section>
+    
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
+    <footer>
+        <p>Classic  Vans, Copyright &copy 2018</p>
+        <p>Email: Classic.Vans2018@gmail.com</p>
+    </footer>
 </body>
 </html>

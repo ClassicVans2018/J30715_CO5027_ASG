@@ -4,33 +4,32 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="container" class="auto-style5">
-        <div id="Login-block">
+        <div class="container">
             <h1>Log-In</h1>
             <p>Username&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TxtLoginUsername" runat="server" Width="246px" Height="30px"></asp:TextBox>
             </p>
             <p>Password&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtLoginPassword" runat="server" Width="245px" TextMode="Password" CssClass="auto-style2" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="TxtLoginPassword" runat="server" Width="246px"  TextMode="Password" CssClass="auto-style2" Height="30px"></asp:TextBox>
             </p>
             <p>&nbsp;</p>
             <p>
-                <asp:Button ID="BtnLogIn" runat="server" Height="34px" Text="Log-In" Width="218px" OnClick="BtnLogIn_Click" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" CssClass="auto-style1" />
+                <asp:Button ID="BtnLogIn" runat="server" Height="34px" Text="Log-In" Width="215px" OnClick="BtnLogIn_Click" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" CssClass="auto-style1" />
             </p>
             <p>
                 <asp:Literal ID="LitLogInMsg" runat="server"></asp:Literal>
             </p>
 
-        </div>
-        <div id="AccountReg-block">
+       
             <h1>Account Registration</h1>
             <p>Username&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtRegUsername" runat="server" Width="245px" CssClass="auto-style3" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="TxtRegUsername" runat="server" Width="245px" CssClass="auto-style3" Height="30px" style="margin-left: 53px"></asp:TextBox>
             </p>
             <p>Password&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtRegPassword" runat="server" Height="30px" Width="241px" TextMode="Password" CssClass="auto-style4"></asp:TextBox>
+                <asp:TextBox ID="TxtRegPassword" runat="server" Height="30px" Width="245px" TextMode="Password" CssClass="auto-style4" style="margin-left: 53px"></asp:TextBox>
             </p>
             <p>Confirm Password&nbsp;&nbsp;
-                <asp:TextBox ID="TxtRegConfirmPass" runat="server" Width="242px" TextMode="Password" Height="28px"></asp:TextBox>
+                <asp:TextBox ID="TxtRegConfirmPass" runat="server" Width="245px" TextMode="Password" Height="28px"></asp:TextBox>
             </p>
             <p>&nbsp;</p>
             <p>
@@ -43,6 +42,5 @@
             </p>
         </div>
         
-    </div>
-
+    
 </asp:Content>

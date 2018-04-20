@@ -106,6 +106,9 @@
     <Content Include="Admin\Admin.Master" />
     <Content Include="Admin\Web.config" />
     <None Include="packages.config" />
+    <Content Include="image\adult-fashion-feet-772286.jpg" />
+    <Content Include="image\emblem-Vans-500x228.jpg" />
+    <Content Include="image\VansBG.jpg" />
     <Content Include="JS\map.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet1.scss" />
@@ -216,7 +219,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="image\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

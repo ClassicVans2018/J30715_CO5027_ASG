@@ -11,6 +11,7 @@
     <p>
         <asp:Image ID="CrntImage" runat="server" Width="227px" />
     </p>
-    
+    <p><a href="index.aspx">Home</a></p>
+    <p><a href="list.aspx">List of product</a></p>
 
 </asp:Content>
