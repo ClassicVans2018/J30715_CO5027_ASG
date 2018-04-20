@@ -1,13 +1,19 @@
 ﻿body {
-    font-family: Arial, Arial, Helvetica, sans-serif;
-    font-size: 19px;
+    font-family: 'Goudy Old Style';
+    font-size: 16px;
     line-height: 1.5;
     padding: 0;
     margin: 0;
     background: url(image/adult-fashion-feet-772286.jpg);
 }
 
-
+#logo  img {
+    margin: 10px;
+    float: left;
+    width: 200px;
+    height: 90px;
+    margin-bottom: 50px;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -24,23 +30,25 @@ ul {
 header{
     background: #000000;
     color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #ff0000 3px solid;
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: #ff0000 6px solid;
+    width: 100%;
 }
 
 header a{
     color: #ffffff;
     text-decoration:none;
     text-transform:uppercase;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header li{
 
-    float: left;
+    
     display:inline;
     padding: 0 20px 0 20px;
+    
 }
 
 header #branding{
@@ -75,8 +83,9 @@ header a:hover{
 }
 #showcase h1{
     margin-top: 40px;
-    font-size: 55px;
+    font-size: 30px;
     margin-bottom: 10px;
+    font-family:'Goudy Old Style';
 }
 #showcase p{
     font-size: 15px;
@@ -88,17 +97,25 @@ header a:hover{
     width: 720px;
     height: 487px;
     
-    height: 487px;
+
 }
 /*Footer*/
 footer {
-    padding: 20px;
+    padding: 15px;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: #808080;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
+    background-color: #000000;
+    width: 98%;
     overflow: hidden;
     opacity: 0.90;
+    border-top: #ff0000 4px solid;
+    
 }
+footer p{
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+  

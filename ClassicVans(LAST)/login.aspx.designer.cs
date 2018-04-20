@@ -13,22 +13,22 @@ namespace ClassicVans_LAST_ {
     public partial class login {
         
         /// <summary>
-        /// TxtLoginUsername control.
+        /// TxtEmailLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtLoginUsername;
+        protected global::System.Web.UI.WebControls.TextBox TxtEmailLogin;
         
         /// <summary>
-        /// TxtLoginPassword control.
+        /// TxtPassLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtLoginPassword;
+        protected global::System.Web.UI.WebControls.TextBox TxtPassLogin;
         
         /// <summary>
         /// BtnLogIn control.
@@ -40,22 +40,22 @@ namespace ClassicVans_LAST_ {
         protected global::System.Web.UI.WebControls.Button BtnLogIn;
         
         /// <summary>
-        /// LitLogInMsg control.
+        /// LitLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LitLogInMsg;
+        protected global::System.Web.UI.WebControls.Literal LitLogin;
         
         /// <summary>
-        /// TxtRegUsername control.
+        /// TxtRegEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtRegUsername;
+        protected global::System.Web.UI.WebControls.TextBox TxtRegEmail;
         
         /// <summary>
         /// TxtRegPassword control.

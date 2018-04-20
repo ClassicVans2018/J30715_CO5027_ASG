@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ClassicVans_LAST_._default" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ClassicVans_LAST_._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -8,8 +8,8 @@
         </HeaderTemplate>
         <ItemTemplate>
             <div class="container">
-            <div id="Product">
-                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg height="300px"/</a><br></br>
+            <div id="Product-Repeater">
+                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg height="300px" /</a><br></br>
                 <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><%#Eval("PRODUCTName") %></a>
                 <p><%#Eval("PRODUCTDesc") %></p>
             </div>

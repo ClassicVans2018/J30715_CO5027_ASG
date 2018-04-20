@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="ClassicVans_LAST_.contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="ClassicVans_LAST_.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
@@ -73,6 +73,7 @@
                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3PyfXSUCSFx7e0fCgaCoh8SJnsolD4wE&callback=initMap">
             </script>
         </div>
-        
+        <h1>Static Map</h1>
+        <img src="image/Static Map.PNG" />
         </div>
 </asp:Content>

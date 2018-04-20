@@ -25,16 +25,16 @@ namespace ClassicVans_LAST_
             var userManager = new UserManager<IdentityUser>(userStore);
 
 
-            var user = userManager.Find(TxtLoginUsername.Text, TxtLoginPassword.Text);
+            var user = userManager.Find(TxtEmailLogin.Text, TxtPassLogin.Text);
             if (user != null)
             {
                 LogUserIn(userManager, user);
-                LitLogInMsg.Text = "Log-in Successful !";
+                LitLogin.Text = "Log-in Successful !";
 
             }
             else
             {
-                LitLogInMsg.Text = "Invalid username or password";
+                LitLogin.Text = "Invalid username or password";
                 ;
             }
         }
@@ -70,7 +70,7 @@ namespace ClassicVans_LAST_
             var roleManager = new RoleManager<IdentityRole>(roleStore);
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
-            var user = new IdentityUser() { UserName = TxtRegUsername.Text };
+            var user = new IdentityUser() { UserName = TxtRegEmail.Text };
 
 
             IdentityRole adminRole = new IdentityRole("Registereduser");

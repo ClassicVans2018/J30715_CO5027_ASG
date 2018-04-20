@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>Classic VansE</title>
+    <title>Classic Vans</title>
     <link href="StyleSheet1.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -13,7 +13,9 @@
     <header>
         <div class="container">
         <div id="branding">
-            <h1>Classic Vans</h1>
+            
+            <div id="logo"><img src="image/emblem-Vans-500x228.jpg" /></div>
+   
         </div>
             <nav>
             <ul>
@@ -27,8 +29,8 @@
            </header>
     <section id="showcase">
         <div class="container">
-            <h1>Authentic, Original & Classic Vans</h1>
-            <p>This shoes has all of the original features of a Vans show, but has a true reliability that can stand up to a range of wear and tear</p>
+            <h1>Classic Vans Collection</h1>
+            <p>These shoes has all of the original features of a Vans show, but has a true reliability that can stand up to a range of wear and tear</p>
         </div>
     </section>
     
@@ -39,8 +41,11 @@
         </div>
     </form>
     <footer>
-        <p>Classic  Vans, Copyright &copy 2018</p>
-        <p>Email: Classic.Vans2018@gmail.com</p>
-    </footer>
+        <p>Classic  Vans, Copyright &copy 2018<br />
+            Classic.Vans2018@gmail.com
+        </p>
+       
+        
+        </footer>
 </body>
 </html>

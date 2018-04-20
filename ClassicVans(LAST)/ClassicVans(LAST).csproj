@@ -108,6 +108,7 @@
     <None Include="packages.config" />
     <Content Include="image\adult-fashion-feet-772286.jpg" />
     <Content Include="image\emblem-Vans-500x228.jpg" />
+    <Content Include="image\Static Map.PNG" />
     <Content Include="image\VansBG.jpg" />
     <Content Include="JS\map.js" />
     <Content Include="StyleSheet1.css" />
