@@ -11,7 +11,7 @@
     margin: 10px;
     float: left;
     width: 200px;
-    height: 90px;
+    height: 75px;
     margin-bottom: 50px;
 }
 .container{
@@ -36,23 +36,25 @@ header{
     width: 100%;
 }
 
-header a{
-    color: #ffffff;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-size: 18px;
-}
+    header a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Goudy Old Style';
+        
+            }
 
 header li{
 
-    
-    display:inline;
+     display:inline;
     padding: 0 20px 0 20px;
     
 }
 
 header #branding{
-    float: left;
+    float: right;
+    margin-left: 400px;
 }
 
 header #branding h1{
@@ -61,11 +63,11 @@ header #branding h1{
 
 header nav{
     float: right;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 header .highlight, header .current a{
-    color: #ff6a00;
+    color: #ff0000;
     font-weight: bold;
 }
 
@@ -108,6 +110,7 @@ footer {
     overflow: hidden;
     opacity: 0.90;
     border-top: #ff0000 4px solid;
+    position:absolute;
     
 }
 footer p{
@@ -118,4 +121,9 @@ footer p{
     color: #ffffff;
 }
 
-  
+#Container-contact{
+    text-align: center;
+}
+#Login-container {
+    text-align: center;
+}

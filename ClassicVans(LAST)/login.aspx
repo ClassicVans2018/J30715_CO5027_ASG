@@ -1,30 +1,19 @@
 ﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/ClassicVans.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="ClassicVans_LAST_.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="StyleSheet1.css" rel="stylesheet" />
-<style type="text/css">
-    .auto-style1 {
-        margin-left: 22px;
-    }
-    .auto-style2 {
-        margin-left: 3px;
-    }
-    .auto-style3 {
-        margin-left: 78px;
-    }
-    .auto-style4 {
-        margin-left: 133px;
-    }
-</style>
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
         <div class="container">
+            <div id="Login-container">
             <h1>Log-In</h1>
             <p>Email&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtEmailLogin" runat="server" Width="243px" Height="30px" TextMode="Email" CssClass="auto-style1"></asp:TextBox>
+                <asp:TextBox ID="TxtEmailLogin" runat="server" Width="246px" Height="30px" TextMode="Email" ></asp:TextBox>
             </p>
             <p>Password&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtPassLogin" runat="server" Width="246px"  TextMode="Password" CssClass="auto-style2" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="TxtPassLogin" runat="server" Width="246px"  TextMode="Password"  Height="30px"></asp:TextBox>
             </p>
             <p>&nbsp;</p>
             <p>
@@ -55,6 +44,6 @@
                 <asp:Literal ID="LitRegMsg" runat="server"></asp:Literal>
             </p>
         </div>
-        
+        </div>
     
 </asp:Content>

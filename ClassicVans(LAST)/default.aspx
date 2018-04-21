@@ -9,7 +9,7 @@
         <ItemTemplate>
             <div class="container">
             <div id="Product-Repeater">
-                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg height="300px" /</a><br></br>
+                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg height="300px" /> </a><br></br>
                 <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><%#Eval("PRODUCTName") %></a>
                 <p><%#Eval("PRODUCTDesc") %></p>
             </div>
