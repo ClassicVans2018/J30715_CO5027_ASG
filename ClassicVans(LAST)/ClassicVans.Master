@@ -22,7 +22,7 @@
                   <li class="current"><a href="~/default.aspx"  runat="server">Home</a></li>
                   <li><a href="~/about.aspx"  runat="server">About</a></li>
                   <li><a href="~/contact.aspx"  runat="server">Contact</a></li>
-                  <li><a href="~/login.aspx"  runat="server">Log-In</a></li>
+                  <li><a href="~/login.aspx"  runat="server">Login</a></li>
             </ul>
         </nav>
       </div>

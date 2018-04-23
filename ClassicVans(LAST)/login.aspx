@@ -8,7 +8,7 @@
     
         <div class="container">
             <div id="Login-container">
-            <h1>Log-In</h1>
+            <h1>Login</h1>
             <p>Email&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TxtEmailLogin" runat="server" Width="246px" Height="30px" TextMode="Email" ></asp:TextBox>
             </p>

@@ -37,6 +37,7 @@
             PRODUCTDesc:
             <asp:Label ID="PRODUCTDescLabel" runat="server" Text='<%# Bind("PRODUCTDesc") %>' />
             <br />
+            Price:<br />
         </ItemTemplate>
     </asp:FormView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:db_1526885_co5027_1526885ConnectionString2 %>" DeleteCommand="DELETE FROM [tblProduct] WHERE [ProductId] = @original_ProductId AND (([PRODUCTName] = @original_PRODUCTName) OR ([PRODUCTName] IS NULL AND @original_PRODUCTName IS NULL)) AND (([PRODUCTDesc] = @original_PRODUCTDesc) OR ([PRODUCTDesc] IS NULL AND @original_PRODUCTDesc IS NULL))" InsertCommand="INSERT INTO [tblProduct] ([PRODUCTName], [PRODUCTDesc]) VALUES (@PRODUCTName, @PRODUCTDesc)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT * FROM [tblProduct] WHERE ([ProductId] = @ProductId)" UpdateCommand="UPDATE [tblProduct] SET [PRODUCTName] = @PRODUCTName, [PRODUCTDesc] = @PRODUCTDesc WHERE [ProductId] = @original_ProductId AND (([PRODUCTName] = @original_PRODUCTName) OR ([PRODUCTName] IS NULL AND @original_PRODUCTName IS NULL)) AND (([PRODUCTDesc] = @original_PRODUCTDesc) OR ([PRODUCTDesc] IS NULL AND @original_PRODUCTDesc IS NULL))">

@@ -30,7 +30,7 @@ namespace ClassicVans_LAST_
             {
                 LogUserIn(userManager, user);
                 LitLogin.Text = "Log-in Successful !";
-
+                Response.Redirect("~/default.aspx");
             }
             else
             {
