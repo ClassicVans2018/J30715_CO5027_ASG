@@ -123,12 +123,15 @@ footer p{
     color: #ffffff;
 }
 .ProductRepeaterImg {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    padding-left: 390px;
     
 }
-.Product-Repeater li {
+.Product-Repeater ul {
     float: left;
-    width: 20%;
-    padding: 0 20px 0 20px;
+    
+}
+.Product-Repeater li img{
+    float: left;
 }
