@@ -122,4 +122,13 @@ footer p{
     text-decoration: none;
     color: #ffffff;
 }
-
+.ProductRepeaterImg {
+    width: 100px;
+    height: 100px;
+    
+}
+.Product-Repeater li {
+    float: left;
+    width: 20%;
+    padding: 0 20px 0 20px;
+}

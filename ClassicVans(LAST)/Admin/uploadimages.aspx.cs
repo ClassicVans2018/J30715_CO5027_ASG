@@ -14,7 +14,7 @@ namespace ClassicVans_LAST_.Admin
             string productId = Request.QueryString["id"];
             string filename = productId + ".jpg";
 
-            CrntImage.ImageUrl = "~/image/" + filename;
+            CrntImage.ImageUrl = "~/ProductImages/" + filename;
         }
 
         protected void BtnUpload_Click(object sender, EventArgs e)
@@ -22,7 +22,7 @@ namespace ClassicVans_LAST_.Admin
             string productId = Request.QueryString["id"];
 
             string filename = productId + ".jpg";
-            string saveLocation = Server.MapPath("~/image/" + filename);
+            string saveLocation = Server.MapPath("~/ProductImages/" + filename);
 
             FileUpload.SaveAs(saveLocation);
         }

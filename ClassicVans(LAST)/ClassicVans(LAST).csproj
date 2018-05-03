@@ -111,6 +111,10 @@
     <Content Include="image\Static Map.PNG" />
     <Content Include="image\VansBG.jpg" />
     <Content Include="JS\map.js" />
+    <Content Include="ProductImages\20.jpg" />
+    <Content Include="ProductImages\CHECKERBOARD OLD SKOOL.jpg" />
+    <Content Include="ProductImages\CHECKERBOARD SLIP-ON.jpg" />
+    <Content Include="ProductImages\CHIMA FERGUSON PRO.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet1.scss" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />

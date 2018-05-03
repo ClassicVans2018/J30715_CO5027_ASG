@@ -42,10 +42,12 @@
     </form>
     <footer>
         <p>Classic  Vans, Copyright &copy 2018<br />
-            Classic.Vans2018@gmail.com
-        </p>
-       
-        
+           Classic.Vans2018@gmail.com
+        </p><br />
+       <a href="http://validator.w3.org/check?url=referer">Validate Html</a>
+        <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        <a href="https://achecker.ca/checker/index.php">Chech WCAG</a>
+        <a href="~/Admin/index.aspx">Admin Account</a>
         </footer>
 </body>
 </html>

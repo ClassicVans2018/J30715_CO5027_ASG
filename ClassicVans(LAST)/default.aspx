@@ -8,11 +8,14 @@
         </HeaderTemplate>
         <ItemTemplate>
             <div class="container">
-            <div id="Product-Repeater">
-                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><img src=/image/<%#Eval("ProductId")%>.jpg /> </a><br></br>
+                <ul class="Product-Repeater">
+                   <li>
+                <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"></a>
                 <a href="<%#Eval("ProductId","product.aspx?id={0}") %>"><%#Eval("PRODUCTName") %></a>
                 <p><%#Eval("PRODUCTDesc") %></p>
-            </div>
+                <asp:Image runat="server" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId") + ".jpg" %>' CssClass="ProductRepeaterImg" />
+                   </li>
+                </ul>
             </div>
             
         </ItemTemplate>
